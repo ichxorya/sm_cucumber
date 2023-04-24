@@ -25,5 +25,4 @@ class WasmTest {
         System.out.println((results[0]));
         instance.close();
     }
-    // xxx
 }
