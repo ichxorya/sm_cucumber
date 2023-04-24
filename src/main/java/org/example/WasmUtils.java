@@ -30,7 +30,7 @@ public class WasmUtils {
         return (int) results[0];
     }
 
-    public static String marioStatemachine(String wasmPath, Object... inputs) {
+    public static String marioStateMachine(String wasmPath, Object... inputs) {
         int marioState = functionAndInputs(wasmPath, "lets_a_go", inputs);
 
         /*
@@ -49,5 +49,28 @@ public class WasmUtils {
             // This won't happen.
             default -> throw new IllegalStateException("Unexpected value: " + marioState);
         };
+    }
+
+    public static int convert(String input) {
+        // Upper case the input then split the string by spaces.
+        String[] split = input.toUpperCase().split(" ");
+
+        // Replace every string in that array with the corresponding integer.
+        for (int i = 0; i < split.length; i++) {
+            split[i] = switch (split[i]) {
+                case "NOTHING" -> "0";
+                case "MUSHROOM" -> "1";
+                case "FLOWER" -> "2";
+                case "FEATHER" -> "3";
+                default -> throw new IllegalStateException("Unexpected value: " + split[i]);
+            };
+        }
+
+        // Turn the array into a string and parse it to an integer.
+        try {
+            return Integer.parseInt(String.join("", split));
+        } catch (NumberFormatException e) {
+            throw new RuntimeException("Invalid input.");
+        }
     }
 }
