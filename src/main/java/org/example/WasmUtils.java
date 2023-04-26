@@ -65,7 +65,7 @@ public class WasmUtils {
                 case "FLOWER" -> "2";
                 case "FEATHER" -> "3";
                 case "COIN" -> "4";
-                case "ENEMY'S BOMB" -> "5";
+                case "BOMB" -> "5";
                 default -> throw new IllegalStateException("Unexpected value: " + split[i]);
             };
         }
