@@ -44,7 +44,7 @@ pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
         2: Flower
         3: Feather
         4: Coin
-        5: EnemyBomb
+        5: Bomb (Enemy's attack)
         Others: Error
 
         If the number is 0, there is no state transition.
