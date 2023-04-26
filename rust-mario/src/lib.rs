@@ -14,7 +14,7 @@ enum Item {
     Flower,
     Feather,
     Coin,
-    EnemyBomb
+    Bomb
 }
 use Item::*;
 
@@ -67,7 +67,7 @@ pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
             '2' => items_list.push(Flower),
             '3' => items_list.push(Feather),
             '4' => items_list.push(Coin),
-            '5' => items_list.push(EnemyBomb),
+            '5' => items_list.push(Bomb),
             _ => panic!("Invalid item")
         }
     }
@@ -76,12 +76,12 @@ pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
     for i in items_list {
         match (state, i) {
             (Dead, _) => (),
-            (Mario, EnemyBomb) => state = Dead,
+            (Mario, Bomb) => state = Dead,
             (Mario, Mushroom) => state = SuperMario,
-            (SuperMario, EnemyBomb) => state = Mario,
+            (SuperMario, Bomb) => state = Mario,
             (_, Flower) => state = FireMario,
             (_, Feather) => state = CapeMario,
-            (_, EnemyBomb) => state = SuperMario,
+            (_, Bomb) => state = SuperMario,
             (_, Coin) => coin += 1,
             _ => ()
         }

@@ -24,7 +24,11 @@ Feature: Mario-Items chained effect
     Then I should get "<output>" as output
     Examples:
         | input                                                           | output    |
-        | flower nothing mushroom nothing feather flower, state           | FireMario |
+        | flower nothing mushroom nothing feather flower final_state      | FireMario |
+#        | mushroom mushroom feather flower mushroom mushroom coin         | 0         |
+#        | mushroom flower mushroom nothing nothing feather state          | CapeMario |
+#        | nothing nothing nothing nothing nothing nothing                 | Mario     |
+#        | enemy's bomb coin coin coin coin coin coin coin coin            | Dead      |
 
     
 

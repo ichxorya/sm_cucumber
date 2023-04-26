@@ -7,9 +7,11 @@
     <cargoProject FILE="$PROJECT_DIR$/rust-mario/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2 - fix return type">
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2 - wasm update">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rust-mario/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rust-mario/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/rust_mario.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rust_mario.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MarioStatemachine">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADMIN\Desktop\CLBDuaChuot\MarioStateCucumber\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Input and output">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="MarioStateCucumber" />
@@ -161,8 +168,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MarioStatemachine" />
         <item itemvalue="Cucumber Java.Scenario: Input and output" />
+        <item itemvalue="Application.MarioStatemachine" />
         <item itemvalue="Cucumber Java.Feature: Mario" />
         <item itemvalue="Application.WasmTest" />
         <item itemvalue="Application.Main" />
@@ -185,7 +192,7 @@
       <workItem from="1682311844880" duration="3111000" />
       <workItem from="1682317298293" duration="652000" />
       <workItem from="1682317969164" duration="5032000" />
-      <workItem from="1682504483363" duration="2702000" />
+      <workItem from="1682504483363" duration="3528000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1682317754368</created>
@@ -299,7 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682507148829</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="mario lv2 - fix return type">
+      <created>1682507194553</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1682507194553</updated>
+    </task>
+    <task id="LOCAL-00018" summary="mario lv2 - wasm update">
+      <created>1682507253378</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1682507253378</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -318,7 +339,8 @@
     <MESSAGE value="mario lv2" />
     <MESSAGE value="mario lv2 - fix bomb = bad" />
     <MESSAGE value="mario lv2 - fix return type" />
-    <option name="LAST_COMMIT_MESSAGE" value="mario lv2 - fix return type" />
+    <MESSAGE value="mario lv2 - wasm update" />
+    <option name="LAST_COMMIT_MESSAGE" value="mario lv2 - wasm update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
