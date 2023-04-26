@@ -51,10 +51,10 @@ pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
     */
 
     if items == 0 {
-        return if return_type == 0 {
-            1 // Mario
-        } else {
-            coin
+        match return_type {
+            0 => return 1,
+            1 => return 0,
+            _ => panic!("Invalid return type!")
         }
     }
 
