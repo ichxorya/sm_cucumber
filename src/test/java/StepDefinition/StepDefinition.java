@@ -19,7 +19,7 @@ public class StepDefinition {
     public void i_enter_the_string_as_input(String input) {
         // Write code here that turns the phrase above into concrete actions
         this.input = input;
-        this.output = marioStateMachine("src/main/resources/rust_mario.wasm", convert(input));
+        this.output = marioStateMachine("src/main/resources/rust_mario.wasm", convertItems(input));
     }
     @Then("I should get {string} as output")
     public void i_should_get_as_output(String output) {
