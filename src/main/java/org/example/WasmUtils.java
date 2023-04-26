@@ -84,7 +84,7 @@ public class WasmUtils {
         try {
             return Integer.parseInt(String.join("", split));
         } catch (NumberFormatException e) {
-            throw new RuntimeException("Invalid input.");
+            throw new RuntimeException("Can't convert input to integer due to its size.");
         }
     }
 
