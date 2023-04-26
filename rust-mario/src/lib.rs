@@ -75,7 +75,7 @@ pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
     // State transitions.
     for i in items_list {
         match (state, i) {
-            (Dead, _) => (),
+            (Dead, _) => break,
             (Mario, Bomb) => state = Dead,
             (Mario, Mushroom) => state = SuperMario,
             (SuperMario, Bomb) => state = Mario,
