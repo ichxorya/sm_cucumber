@@ -3,14 +3,16 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="CargoProjects">
+    <cargoProject FILE="$PROJECT_DIR$/rust-mario/Cargo.toml" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2">
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2 - fix bomb = bad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rust-mario/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rust-mario/src/lib.rs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WasmUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WasmUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/Main.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/WasmTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,6 +70,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/ADMIN/Desktop/CLBDuaChuot/MarioStateCucumber/rust-mario",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -77,7 +80,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "language.rust.cargo.check",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -170,6 +173,7 @@
     </recent_temporary>
   </component>
   <component name="RustProjectSettings">
+    <option name="runExternalLinterOnTheFly" value="true" />
     <option name="toolchainHomeDirectory" value="$USER_HOME$/.cargo/bin" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -184,7 +188,7 @@
       <workItem from="1682311844880" duration="3111000" />
       <workItem from="1682317298293" duration="652000" />
       <workItem from="1682317969164" duration="5032000" />
-      <workItem from="1682504483363" duration="2070000" />
+      <workItem from="1682504483363" duration="2478000" />
     </task>
     <task id="LOCAL-00001" summary="First">
       <created>1682317754368</created>
@@ -270,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682506225230</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="mario lv2 - fix bomb = bad">
+      <created>1682506605995</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682506605995</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +298,11 @@
     <MESSAGE value="added convert" />
     <MESSAGE value="added rust-mario" />
     <MESSAGE value="mario lv2" />
-    <option name="LAST_COMMIT_MESSAGE" value="mario lv2" />
+    <MESSAGE value="mario lv2 - fix bomb = bad" />
+    <option name="LAST_COMMIT_MESSAGE" value="mario lv2 - fix bomb = bad" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

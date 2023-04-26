@@ -22,8 +22,8 @@ use Item::*;
 pub extern fn lets_a_go(items: u32, return_type: u32) -> u32 {
     /*
         Return types:
-            0: State
-            1: Coins
+            0: Final state
+            1: Final coins
 
         Return one of these states:
             1: Mario

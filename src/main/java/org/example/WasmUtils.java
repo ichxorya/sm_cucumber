@@ -34,23 +34,32 @@ public class WasmUtils {
         int marioState = functionAndInputs(wasmPath, "lets_a_go", inputs);
 
         /*
-            Switch-case:
+            State switch-case:
                 1: Mario
                 2: SuperMario
                 3: FireMario
                 4: CapeMario
                 420: Dead
         */
-        return switch (marioState) {
-            case 1 -> "Mario";
-            case 2 -> "SuperMario";
-            case 3 -> "FireMario";
-            case 4 -> "CapeMario";
-            case 420 -> "Dead";
 
-            // This won't happen.
-            default -> throw new IllegalStateException("Unexpected value: " + marioState);
-        };
+        int return_type = (int) inputs[inputs.length - 1];
+        int FINAL_STATE = 0;
+        int FINAL_COINS = 1;
+
+        if (return_type == FINAL_COINS) {
+            return String.valueOf(marioState);
+        } else if (return_type == FINAL_STATE) {
+            return switch (marioState) {
+                case 1 -> "Mario";
+                case 2 -> "SuperMario";
+                case 3 -> "FireMario";
+                case 4 -> "CapeMario";
+                case 420 -> "Dead";
+                default -> throw new IllegalStateException("Unexpected value: " + marioState);
+            };
+        } else {
+            throw new IllegalStateException("Unexpected value: " + return_type);
+        }
     }
 
     public static int convertItems(String input) {
@@ -82,8 +91,8 @@ public class WasmUtils {
         returnValue = returnValue.toUpperCase();
 
         return switch (returnValue) {
-            case "STATE", "FINAL STATE" -> 0;
-            case "COIN", "COINS" -> 1;
+            case "FINAL_STATE" -> 0;
+            case "FINAL_COINS" -> 1;
 
             default -> throw new IllegalStateException("Unexpected value: " + returnValue);
         };
