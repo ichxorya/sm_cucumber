@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/wasmer-jni-amd64-windows-0.3.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" afterDir="false" />
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="cucumber test (including .feature and step definition) added">
+      <change beforePath="$PROJECT_DIR$/hs_err_pid21652.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
@@ -181,6 +181,21 @@
       <workItem from="1682311844880" duration="3111000" />
       <workItem from="1682317298293" duration="181000" />
     </task>
+    <task id="LOCAL-00001" summary="cucumber test (including .feature and step definition) added">
+      <created>1682497983475</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682497983475</updated>
+    </task>
+    <task id="LOCAL-00002" summary="cucumber test (including .feature and step definition) added">
+      <created>1682498029477</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682498029477</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,5 +203,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="cucumber test (including .feature and step definition) added" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber test (including .feature and step definition) added" />
   </component>
 </project>
