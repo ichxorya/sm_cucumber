@@ -7,10 +7,14 @@
     <cargoProject FILE="$PROJECT_DIR$/rust-mario/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2 - wasm update">
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="cucumber test (including .feature and step definition) added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rust-mario/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/rust-mario/src/lib.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/rust_mario.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rust_mario.wasm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/StepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/StepDefinition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +40,7 @@
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
-        <option name="accountId" value="d06fecc2-046f-4430-b191-eb1af2aea81b" />
+        <option name="accountId" value="74c8a99f-b325-4c8a-91b9-a57e8fd6f5e0" />
         <option name="url" value="https://github.com/ichxorya/sm_cucumber.git" />
       </UrlAndAccount>
     </option>
@@ -46,13 +50,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2OoUC1vbXt2f1KAiDL41crUrLb0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -77,8 +74,8 @@
     "nodejs_package_manager_path": "npm",
     "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4",
     "settings.editor.selected.configurable": "language.rust.cargo.check",
     "vue.rearranger.settings.migration": "true"
   }
@@ -88,20 +85,7 @@
       <recent name="C:\Users\ADMIN\Desktop\CLBDuaChuot\MarioStateCucumber\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Scenario: Input and output">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
-      <module name="MarioStateCucumber" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Cucumber Java.Feature: test">
     <configuration name="MarioStatemachine" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MarioStatemachine" />
       <module name="MarioStateCucumber" />
@@ -146,6 +130,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Feature: test" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/test.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="MarioStateCucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: test" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Input and output" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/test.feature" />
@@ -166,13 +169,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.WasmTest" />
+      <item itemvalue="Application.MarioStatemachine" />
+      <item itemvalue="Cucumber Java.Feature: test" />
+      <item itemvalue="Cucumber Java.Feature: Mario" />
+      <item itemvalue="Cucumber Java.Scenario: Input and output" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Scenario: Input and output" />
-        <item itemvalue="Application.MarioStatemachine" />
-        <item itemvalue="Cucumber Java.Feature: Mario" />
+        <item itemvalue="Cucumber Java.Feature: test" />
         <item itemvalue="Application.WasmTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MarioStatemachine" />
+        <item itemvalue="Cucumber Java.Scenario: Input and output" />
+        <item itemvalue="Cucumber Java.Feature: Mario" />
       </list>
     </recent_temporary>
   </component>
