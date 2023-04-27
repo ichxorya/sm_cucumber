@@ -7,10 +7,8 @@
     <cargoProject FILE="$PROJECT_DIR$/rust-mario/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="mario lv2 - wasm update">
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="cucumber test reformatted: now accept return_type as 2nd input">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WasmUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WasmUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/WasmUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/WasmUtils.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +45,6 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2OoUC1vbXt2f1KAiDL41crUrLb0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -88,7 +79,7 @@
       <recent name="C:\Users\ADMIN\Desktop\CLBDuaChuot\MarioStateCucumber\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MarioStatemachine">
+  <component name="RunManager" selected="Cucumber Java.Scenario: Input and output">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="MarioStateCucumber" />
@@ -166,10 +157,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.WasmTest" />
+      <item itemvalue="Application.MarioStatemachine" />
+      <item itemvalue="Cucumber Java.Feature: Mario" />
+      <item itemvalue="Cucumber Java.Scenario: Input and output" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MarioStatemachine" />
         <item itemvalue="Cucumber Java.Scenario: Input and output" />
+        <item itemvalue="Application.MarioStatemachine" />
         <item itemvalue="Cucumber Java.Feature: Mario" />
         <item itemvalue="Application.WasmTest" />
         <item itemvalue="Application.Main" />
@@ -341,6 +339,29 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/khanh" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />

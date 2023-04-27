@@ -20,15 +20,16 @@ Feature: Mario-Items chained effect
 
   Scenario Outline: Input and output
     Given I have a Java program
-    When I enter the string "<input>" as input
+    When I enter the string "<input>" and "<return_type>" as input
     Then I should get "<output>" as output
     Examples:
-        | input                                                           | output    |
-        | flower nothing mushroom nothing feather flower final_state      | FireMario |
-#        | mushroom mushroom feather flower mushroom mushroom coin         | 0         |
-#        | mushroom flower mushroom nothing nothing feather state          | CapeMario |
-#        | nothing nothing nothing nothing nothing nothing                 | Mario     |
-#        | enemy's bomb coin coin coin coin coin coin coin coin            | Dead      |
+      | input                                                   | return_type | output    |
+      | flower nothing mushroom nothing feather flower          | final_state | FireMario |
+      | mushroom mushroom feather flower mushroom mushroom      | final_coins | 0         |
+      | mushroom flower mushroom nothing nothing feather        | final_state | CapeMario |
+      | nothing nothing nothing nothing nothing nothing         | final_state | Mario     |
+      | bomb coin coin coin coin coin coin coin                 | final_state | Dead      |
+      | coin coin coin coin coin coin bomb coin coin coin       | final_coins | 6         |
 
     
 
