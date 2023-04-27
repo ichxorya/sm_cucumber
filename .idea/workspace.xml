@@ -7,16 +7,7 @@
     <cargoProject FILE="$PROJECT_DIR$/rust-mario/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="cucumber test (including .feature and step definition) added">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/MarioStatemachine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/StepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/test.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/MarioStatemachine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/rust_mario.wasm" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/rust_mario.wasm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefinition/StepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefinition/StepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/test.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test.feature" afterDir="false" />
-    </list>
+    <list default="true" id="0b7ecf98-b588-42dd-913e-892590ec3e4d" name="Changes" comment="cucumber test reformatted: now accept return_type as 2nd input" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -330,7 +321,21 @@
       <option name="project" value="LOCAL" />
       <updated>1682507253378</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="cucumber test reformatted: now accept return_type as 2nd input">
+      <created>1682567062659</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1682567062659</updated>
+    </task>
+    <task id="LOCAL-00020" summary="cucumber test reformatted: now accept return_type as 2nd input">
+      <created>1682567075309</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1682567075309</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,7 +355,8 @@
     <MESSAGE value="mario lv2 - fix bomb = bad" />
     <MESSAGE value="mario lv2 - fix return type" />
     <MESSAGE value="mario lv2 - wasm update" />
-    <option name="LAST_COMMIT_MESSAGE" value="mario lv2 - wasm update" />
+    <MESSAGE value="cucumber test reformatted: now accept return_type as 2nd input" />
+    <option name="LAST_COMMIT_MESSAGE" value="cucumber test reformatted: now accept return_type as 2nd input" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
