@@ -27,7 +27,7 @@ public class WasmUtils {
     public static int functionAndInputs(String wasmPath, String functionName, Object... inputs) {
         Instance instance = createInstance(wasmPath);
         Object[] results = instance.exports.getFunction(functionName).apply(inputs);
-        instance.close();
+//        instance.close();
         return (int) results[0];
     }
 
@@ -99,3 +99,4 @@ public class WasmUtils {
         };
     }
 }
+
